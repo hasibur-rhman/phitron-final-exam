@@ -2,11 +2,11 @@
 
 int main() {
     int N, M;
-    scanf("%d %d", &N, &M); // Read the dimensions of the matrix
+    scanf("%d %d", &N, &M); 
 
     int matrix[N][M];
 
-    // Read the matrix
+    
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < M; j++) {
             scanf("%d", &matrix[i][j]);
