@@ -1,0 +1,1 @@
+{"name":"Local: tiger_vs_pathan","url":"d:\\final exam contest of phitron\\tiger_vs_pathan.c","tests":[{"id":1715273045360,"input":"3\n5\nTPTPP\n3\nTTP\n4\nTPPT","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\final exam contest of phitron\\tiger_vs_pathan.c","group":"local","local":true}

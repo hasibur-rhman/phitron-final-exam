@@ -1,0 +1,1 @@
+{"name":"Local: Jadu_matrix","url":"d:\\final exam contest of phitron\\Jadu_matrix.c","tests":[{"id":1715273612004,"input":"5 5\n1 0 0 0 1\n0 1 0 1 0\n0 0 1 0 0\n0 1 0 1 0\n1 0 0 0 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\final exam contest of phitron\\Jadu_matrix.c","group":"local","local":true}
