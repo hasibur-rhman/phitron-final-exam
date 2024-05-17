@@ -39,7 +39,7 @@ int main()
     
     scanf("%d %d", &a, &b);
 
-    for(i=1; i <= a && i <= b; ++i)
+    for(i=1; i <= a && i <= b;i++)
     {
        
         if(a%i==0 && b%i==0)
@@ -62,7 +62,7 @@ int main() {
     scanf("%d %d", &n1, &n2);
 
     
-    for (i = 1; i <= n1 && i <= n2; ++i) {
+    for (i = 1; i <= n1 && i <= n2;i++) {
         
        
         if (n1 % i == 0 && n2 % i == 0)
@@ -71,6 +71,42 @@ int main() {
 
     lcm = (n1 * n2) / gcd;
 
-    printf("%d.",lcm);
+    printf("%d",lcm);
     return 0;
 }
+
+
+palindrome:
+#include <stdio.h>
+#include <stdbool.h>
+
+int main() {
+    int n;
+  
+    scanf("%d", &n);
+
+    int arr[n];
+
+   
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    
+    bool isPalindrome = true;
+    for (int i = 0; i < n / 2; i++) { 
+        if (arr[i] != arr[n - i - 1]) { 
+            isPalindrome = false;
+            break;
+        }
+    }
+
+    if (isPalindrome) {
+        printf("palindrome.\n");
+    } else {
+        printf("not palindrome.\n");
+    }
+
+    return 0;
+}
+
